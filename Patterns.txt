@@ -1,0 +1,83 @@
+",	,"	According to US English comma comes before end quotation mark	Any
+".	."	According to US English dot comes before end quotation mark	Any
+ 	Single space	Check consistency of double spaces within a sentence. Beginning of a sentence is ok. Try not to use spaces for alignment	Any
+above figure	Figure or Fig. n	Refer to specific figure no	Any
+above table	Table n	Refer to specific Table no	Any
+Actually	Actually,	Comma should be used at beginning of a sentence	Begin
+Also	Also,	Comma should be used at beginning of a sentence	Begin
+all most	almost	Is a single word	Any
+all ready	already	Is a single word	Any
+all together	altogether	Is a single word	Any
+all ways	allways	Is a single word	Any
+also known as	aka.	Can be replaced with aka or a.k.a. in most cases	Any
+Anyway	Anyway,	Comma should be used at beginning of a sentence	Begin
+a.k.a.,	aka.,	Needs a comma	Any
+a.k.a.	aka.,	Needs a comma	Any
+aka.	aka.,	Needs a comma	Any
+at el	et al.	Possible typo	Any
+before hand	beforehand	Is a single word	Any
+below figure	Figure or Fig. n	Refer to specific figure no	Any
+below table	Table n	Refer to specific Table no	Any
+blockchain	Blockchain	B should be capital	Case
+can not	cannot	Is a single word	Any
+can't	cannot	Is a single word	Any
+data center	datacenter	Is a single word	Any
+don't	do not	Use this informal writing	Any
+doesn't	does not	Use this informal writing	Any
+e.g.	e.g.,	Needs a comma	Any
+eq.	Eq.	E should be capital	Case
+eq,	Eq.	Possible typo	Any
+eq	Eq.	Possible typo	Any
+et al	et al.	Possible typo	Any
+et. al.	et al.	Possible typo	Any
+etc.	etc.,	Needs a comma unless at end of sentence	Any
+etc...	etc.,	Only 1 dot. Needs a comma unless at end of sentence	Any
+et al., (year)	et al. (year)	Possible typo	Any
+far away	faraway	Is a single word	Any
+fig.	Fig.	F should be capital	Case
+fig,	Fig.	Possible typo	Any
+fig	Fig.	Possible typo	Any
+fig.\d	Fig. n	There has to be a space between Fig. and number	RegEx
+Fig.\d	Fig. n	There has to be a space between Fig. and number	RegEx
+fig.*\d	Fig. n	There has to be a space between Fig. and number	RegEx
+Fig.*\d	Fig. n	There has to be a space between Fig. and number	RegEx
+Finally	Finally,	Comma should be used at beginning of a sentence	Begin
+figure	Figure	F should be capital	Case
+following figure	Figure or Fig. n	Refer to specific figure no	Any
+following table	Table n	Refer to specific Table no	Any
+further more	furthermore	Is a single word	Any
+Further more	Furthermore,	Comma should be used at beginning of a sentence	Begin
+hasn't	has not is	Use this informal writing	Any
+haven't	have not is	Use this informal writing	Any
+he	he/she	No gender bias	Any
+Hence	Hence,	Comma should be used at beginning of a sentence	Begin
+However	However,	Comma should be used at beginning of a sentence	Begin
+i.e.	i.e.,	Needs a comma	Any
+in order to	to	Can be replaced with just to in many cases	Any
+in to	into	Is a single word	Any
+in formal	informal	Is a single word	Any
+it's	it is	Are 2 words. Also, know the difference between it is and its	Any
+let's	let us	Use this informal writing	Any
+Likewise	Likewise,	Comma should be used at beginning of a sentence	Begin
+may be	maybe	Is a single word	Any
+Moreover	Moreover,	Comma should be used at beginning of a sentence	Begin
+my self	myself	Is a single word	Any
+Nevertheless	Nevertheless,	Comma should be used at beginning of a sentence	Begin
+on going	ongoing	Is a single word	Any
+section	Section	S should be capital	Case
+sec.	Sec.	S should be capital	Case
+she	he/she	No gender bias	Any
+table	Table	T should be capital	Case
+table.	Table	Possible typo	Any
+testbed	test bed	Are 2 words	Any
+there's	there is	Use this informal writing	Any
+Therefore	Therefore,	Comma should be used at beginning of a sentence	Begin
+Thus	Thus,	Comma should be used at beginning of a sentence	Begin
+Typically	Typically,	Comma should be used at beginning of a sentence	Begin
+wasn't	was not is	Use this informal writing	Any
+where as	whereas	Is a single word	Any
+wide spread	widespread	Is a single word	Any
+won't	will not is	Use this informal writing	Any
+\d hours	n-hours	There has to be a space dash between number and value	RegEx
+\d bit	n-bit	There has to be a space dash between number and value	RegEx
+.\[\d	text [n]	There has to be a space dash between text and reference number	RegEx
