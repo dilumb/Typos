@@ -14,6 +14,7 @@ Anyway	Anyway,	Comma should be used at beginning of a sentence	Begin
 a.k.a.,	aka.,	Needs a comma	Any
 a.k.a.	aka.,	Needs a comma	Any
 aka.	aka.,	Needs a comma	Any
+[a-z] as well as	, as well as	Needs a comma before	RegEx
 at el	et al.	Possible typo	Any
 before hand	beforehand	Is a single word	Any
 below figure	Figure or Fig. n	Refer to specific figure no	Any
@@ -21,6 +22,7 @@ below table	Table n	Refer to specific Table no	Any
 blockchain	Blockchain	B should be capital	Case
 can not	cannot	Is a single word	Any
 can't	cannot	Is a single word	Any
+Currently 	Currently,	Comma should be used at beginning of a sentence	Begin
 data center	datacenter	Is a single word	Any
 don't	do not	Use this informal writing	Any
 doesn't	does not	Use this informal writing	Any
@@ -28,6 +30,7 @@ e.g.	e.g.,	Needs a comma	Any
 eq.	Eq.	E should be capital	Case
 eq,	Eq.	Possible typo	Any
 eq	Eq.	Possible typo	Any
+et.al	et al.	Possible typo	Any
 et al	et al.	Possible typo	Any
 et. al.	et al.	Possible typo	Any
 etc.	etc.,	Needs a comma unless at end of sentence	Any
@@ -42,14 +45,18 @@ Fig.\d	Fig. n	There has to be a space between Fig. and number	RegEx
 fig.*\d	Fig. n	There has to be a space between Fig. and number	RegEx
 Fig.*\d	Fig. n	There has to be a space between Fig. and number	RegEx
 Finally	Finally,	Comma should be used at beginning of a sentence	Begin
+First	First,	Comma should be used at beginning of a sentence	Begin
 figure	Figure	F should be capital	Case
+For an example	For example	"an" not needed	Any
+For example	For example,	"an" not needed	Begin
 following figure	Figure or Fig. n	Refer to specific figure no	Any
 following table	Table n	Refer to specific Table no	Any
 further more	furthermore	Is a single word	Any
 Further more	Furthermore,	Comma should be used at beginning of a sentence	Begin
+java	Java	J should be capital	Case
 hasn't	has not is	Use this informal writing	Any
 haven't	have not is	Use this informal writing	Any
-he	he/she	No gender bias	Any
+he 	he/she	No gender bias	Any
 Hence	Hence,	Comma should be used at beginning of a sentence	Begin
 However	However,	Comma should be used at beginning of a sentence	Begin
 i.e.	i.e.,	Needs a comma	Any
@@ -59,6 +66,7 @@ in formal	informal	Is a single word	Any
 it's	it is	Are 2 words. Also, know the difference between it is and its	Any
 let's	let us	Use this informal writing	Any
 Likewise	Likewise,	Comma should be used at beginning of a sentence	Begin
+markov	Markov	M should be capital	Case
 may be	maybe	Is a single word	Any
 Moreover	Moreover,	Comma should be used at beginning of a sentence	Begin
 my self	myself	Is a single word	Any
@@ -67,6 +75,7 @@ on going	ongoing	Is a single word	Any
 section	Section	S should be capital	Case
 sec.	Sec.	S should be capital	Case
 she	he/she	No gender bias	Any
+Second	Second,	Comma should be used at beginning of a sentence	Begin
 table	Table	T should be capital	Case
 table.	Table	Possible typo	Any
 testbed	test bed	Are 2 words	Any
@@ -74,6 +83,7 @@ there's	there is	Use this informal writing	Any
 Therefore	Therefore,	Comma should be used at beginning of a sentence	Begin
 Thus	Thus,	Comma should be used at beginning of a sentence	Begin
 Typically	Typically,	Comma should be used at beginning of a sentence	Begin
+ ware 	where	Correct spellings is where	Any
 wasn't	was not is	Use this informal writing	Any
 where as	whereas	Is a single word	Any
 wide spread	widespread	Is a single word	Any

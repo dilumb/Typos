@@ -5,6 +5,7 @@ Created on Oct 7, 2018
 '''
 
 import sys
+import os
 from PDF_Handler import PDF_Handler
 from Word_Handler import Word_Handler
 from ScanText import ScanText 
@@ -42,8 +43,12 @@ if __name__ == '__main__':
     else:
         print('Unknown file type. Only PDF and Word are supported')
         sys.exit()
+    
     st.scan_all(doc_text, -1)
-    st.dump_all(dump_file)
- 
+    path = os.path.dirname(os.path.abspath(sys.argv[2]))
+    st.dump_all(path + '\\' + dump_file)
+    
+    if st.typos_found:
+        print("Typos found!")  
     print("Searching for typos complete.")
            

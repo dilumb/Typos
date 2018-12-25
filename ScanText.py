@@ -17,6 +17,8 @@ class ScanText(object):
         Constructor
         '''
         self.patterns = {}
+        self.typos_found = False
+        
 
     def load_patterns(self, file_name):
         '''
@@ -88,9 +90,11 @@ class ScanText(object):
             else:
                 print('Unknwon search pattern', p, self.patterns[p])
                 break
+            
             if count > 0:
                 self.patterns[p][3] += count
                 self.patterns[p][4].append(page_no)
+                self.typos_found = True
     
     def dump_all(self, file_name):
         fd_dump = open(file_name, 'w')
@@ -99,7 +103,7 @@ class ScanText(object):
             'If you notice any errors please let me know.\n' + \
             '\nIdentified typos are listed as:\n' + \
             'Error Term\tCorrect Term\tDescription\tNo of Occurrences\tPages (absolute)\n'
-        fd_dump.write(text_start)
+        fd_dump.write(text_start)        
         for p in self.patterns:
             if self.patterns[p][3] > 0:
                 text_to_dump = p + '\t' +  self.patterns[p][0] + '\t' + \
