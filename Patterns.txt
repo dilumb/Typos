@@ -40,10 +40,9 @@ far away	faraway	Is a single word	Any
 fig.	Fig.	F should be capital	Case
 fig,	Fig.	Possible typo	Any
 fig	Fig.	Possible typo	Any
-fig.\d	Fig. n	There has to be a space between Fig. and number	RegEx
-Fig.\d	Fig. n	There has to be a space between Fig. and number	RegEx
-fig.*\d	Fig. n	There has to be a space between Fig. and number	RegEx
-Fig.*\d	Fig. n	There has to be a space between Fig. and number	RegEx
+[fF]ig.\d	Fig. n	There has to be a space like Fig. 2.7	RegEx
+[fF]igure\d	Figure n	There has to be a space like Figure 2.7	RegEx
+[fF]igure.\d	Figure n	There has to be a space like Figure 2.7	RegEx
 Finally	Finally,	Comma should be used at beginning of a sentence	Begin
 First	First,	Comma should be used at beginning of a sentence	Begin
 figure	Figure	F should be capital	Case
@@ -54,8 +53,8 @@ following table	Table n	Refer to specific Table no	Any
 further more	furthermore	Is a single word	Any
 Further more	Furthermore,	Comma should be used at beginning of a sentence	Begin
 java	Java	J should be capital	Case
-hasn't	has not is	Use this informal writing	Any
-haven't	have not is	Use this informal writing	Any
+hasn't	has not	Use this informal writing	Any
+haven't	have not	Use this informal writing	Any
 he 	he/she	No gender bias	Any
 Hence	Hence,	Comma should be used at beginning of a sentence	Begin
 However	However,	Comma should be used at beginning of a sentence	Begin
@@ -72,22 +71,25 @@ Moreover	Moreover,	Comma should be used at beginning of a sentence	Begin
 my self	myself	Is a single word	Any
 Nevertheless	Nevertheless,	Comma should be used at beginning of a sentence	Begin
 on going	ongoing	Is a single word	Any
-section	Section	S should be capital	Case
-sec.	Sec.	S should be capital	Case
+section	Section	S should be capital if used like Section 3.1	Case
+sec.	Sec.	S should be capital if used like Sec. 3.1	Case
 she	he/she	No gender bias	Any
 Second	Second,	Comma should be used at beginning of a sentence	Begin
-table	Table	T should be capital	Case
+table	Table	T should be capital if use like Table 3.2	Case
 table.	Table	Possible typo	Any
+[tT]able\d	Table n	There has to be a space between Table and number	RegEx
+[tT]able.\d	Table n	There has to be a space between Table and number	RegEx
 testbed	test bed	Are 2 words	Any
 there's	there is	Use this informal writing	Any
 Therefore	Therefore,	Comma should be used at beginning of a sentence	Begin
 Thus	Thus,	Comma should be used at beginning of a sentence	Begin
 Typically	Typically,	Comma should be used at beginning of a sentence	Begin
  ware 	where	Correct spellings is where	Any
-wasn't	was not is	Use this informal writing	Any
+wasn't	was not	Use this informal writing	Any
 where as	whereas	Is a single word	Any
 wide spread	widespread	Is a single word	Any
-won't	will not is	Use this informal writing	Any
+won't	will not	Use this informal writing	Any
+wouldn’t	would not	Use this informal writing	Any
 \d hours	n-hours	There has to be a space dash between number and value	RegEx
 \d bit	n-bit	There has to be a space dash between number and value	RegEx
 .\[\d	text [n]	There has to be a space dash between text and reference number	RegEx
