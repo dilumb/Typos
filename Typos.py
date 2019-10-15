@@ -1,7 +1,7 @@
 '''
 Created on Oct 7, 2018
 
-@author: DilumBandara
+@author: Dilum Bandara
 '''
 
 import sys
@@ -27,23 +27,16 @@ if __name__ == '__main__':
     
     if file_type == 'PDF':
         ph = PDF_Handler(sys.argv[2])
-        page_nos = ph.get_no_pages()
-        print('Succesfully open PDF file with', page_nos, ' pages.')
-        print("Searching for typos...")
-        for i in range(page_nos):
-            doc_text = ph.get_text(i)
-
-            
-        #break
+        doc_text = ph.get_all_text()
+        print('Succesfully open PDF file.')
     elif file_type == 'Word':
         wd = Word_Handler(sys.argv[2])
         doc_text = wd.get_all_text()
         print('Succesfully open Word file')
-        print("Searching for typos...")
     else:
         print('Unknown file type. Only PDF and Word are supported')
         sys.exit()
-    
+    print("Searching for typos...")
     st.scan_all(doc_text, -1)
     path = os.path.dirname(os.path.abspath(sys.argv[2]))
     st.dump_all(path + '\\' + dump_file)
@@ -51,4 +44,3 @@ if __name__ == '__main__':
     if st.typos_found:
         print("Typos found!")  
     print("Searching for typos complete.")
-           
