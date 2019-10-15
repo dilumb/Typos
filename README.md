@@ -4,8 +4,9 @@ Quickly Scan and Summarize Typos on Your Documents.
 Typos is a Python-based tool to quickly scan and summarize common typos in documents such as research papers, reports, and thesis. 
 These typos aren't typically detected by your word processor. While it works with both Word (.docx) and PDF files, I have had better results with Word file due to limitations on PDF extractor (better results are expected with this upgrade to PDFMiner.six).
 
-##Prerequisists
+## Prerequisists
 Make sure python-docx and pdfminer.six libraries are installed. Else install using:
+
 pip install pdfminer.six python-docx
 
 ## How to Run
